@@ -1,0 +1,79 @@
+command 15 :- mv laptop mypc
+output:-
+total 72
+-rw-------. 1 root root  6953 May  4  2021 anaconda-ks.cfg
+-rw-r--r--. 2 root root     0 Mar  9 14:59 fruit
+-rw-r--r--. 2 root root     0 Mar  9 14:59 fruitlink
+-rw-r--r--. 1 root root    39 Jul  5 09:24 gitprcmd
+-rw-r--r--. 1 root root 10195 Jul  5 09:23 gitprcom
+-rw-r--r--. 1 root root  2253 Jul  5 08:32 gitprcomm
+-rw-r--r--. 1 root root    18 Mar  9 16:05 headphone
+-rw-r--r--. 1 root root    18 Mar  9 16:04 headset
+-rw-r--r--. 1 root root  1179 Mar  9 15:16 historybackup
+drwxr-xr-x. 6 root root    88 Jul  5 08:03 house
+drwxr-xr-x. 6 root root    58 Mar  7 15:03 mobile
+-rw-r--r--. 1 root root   193 Mar  9 15:58 mylappy
+-rw-r--r--. 1 root root    91 Mar  9 15:57 mypc
+-rw-------. 1 root root  6699 May  4  2021 original-ks.cfg
+-rw-r--r--. 1 root root    27 May 12 14:15 sun1
+-rw-r--r--. 1 root root     0 Mar 11 13:37 tooth
+-rw-r--r--. 1 root root 10240 Mar 11 13:37 tooth.tar
+command  16  :- rm -f my pc
+output:-
+total 68
+-rw-------. 1 root root  6953 May  4  2021 anaconda-ks.cfg
+-rw-r--r--. 2 root root     0 Mar  9 14:59 fruit
+-rw-r--r--. 2 root root     0 Mar  9 14:59 fruitlink
+-rw-r--r--. 1 root root   972 Jul  5 09:34 gitprcmd
+-rw-r--r--. 1 root root 10195 Jul  5 09:23 gitprcom
+-rw-r--r--. 1 root root  2253 Jul  5 08:32 gitprcomm
+-rw-r--r--. 1 root root    18 Mar  9 16:05 headphone
+-rw-r--r--. 1 root root    18 Mar  9 16:04 headset
+-rw-r--r--. 1 root root  1179 Mar  9 15:16 historybackup
+drwxr-xr-x. 6 root root    88 Jul  5 08:03 house
+drwxr-xr-x. 6 root root    58 Mar  7 15:03 mobile
+-rw-r--r--. 1 root root   193 Mar  9 15:58 mylappy
+-rw-------. 1 root root  6699 May  4  2021 original-ks.cfg
+-rw-r--r--. 1 root root    27 May 12 14:15 sun1
+-rw-r--r--. 1 root root     0 Mar 11 13:37 tooth
+-rw-r--r--. 1 root root 10240 Mar 11 13:37 tooth.tar
+command 17 :- cp /root/mylappy /root/house
+output:-
+total 4
+drwxr-xr-x. 2 root root   6 Jul  5 07:57 farmhouse
+-rw-r--r--. 1 root root   0 Jul  5 08:03 gitprcomm
+drwxr-xr-x. 5 root root  58 Jul  5 08:03 house
+-rw-r--r--. 1 root root 193 Jul  5 09:47 mylappy
+drwxr-xr-x. 2 root root   6 Jul  5 07:57 penthouse
+drwxr-xr-x. 2 root root   6 Jul  5 07:57 whitehouse
+commandv 18 :- !267                           ----------------> executes command 267 from history
+      July 2022     
+Su Mo Tu We Th Fr Sa
+                1  2
+ 3  4  5  6  7  8  9
+10 11 12 13 14 15 16
+17 18 19 20 21 22 23
+24 25 26 27 28 29 30
+31
+command 19 :- chmod 766 sun1
+output:-                  
+total 68
+-rw-------. 1 root root  6953 May  4  2021 anaconda-ks.cfg
+-rw-r--r--. 2 root root     0 Mar  9 14:59 fruit
+-rw-r--r--. 2 root root     0 Mar  9 14:59 fruitlink
+-rw-r--r--. 1 root root  2444 Jul  5 09:54 gitprcmd
+-rw-r--r--. 1 root root 10195 Jul  5 09:23 gitprcom
+-rw-r--r--. 1 root root  2253 Jul  5 08:32 gitprcomm
+-rw-r--r--. 1 root root    18 Mar  9 16:05 headphone
+-rw-r--r--. 1 root root    18 Mar  9 16:04 headset
+-rw-r--r--. 1 root root  1179 Mar  9 15:16 historybackup
+drwxr-xr-x. 6 root root   103 Jul  5 09:47 house
+drwxr-xr-x. 6 root root    58 Mar  7 15:03 mobile
+-rw-r--r--. 1 root root   193 Mar  9 15:58 mylappy
+-rw-------. 1 root root  6699 May  4  2021 original-ks.cfg
+-rwxrw-rw-. 1 root root    27 May 12 14:15 sun1
+-rw-r--r--. 1 root root     0 Mar 11 13:37 tooth
+-rw-r--r--. 1 root root 10240 Mar 11 13:37 tooth.tar
+command 20 :- cat gitprcmd | wc -l 
+output:-
+76
