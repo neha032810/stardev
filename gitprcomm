@@ -1,0 +1,55 @@
+command 1:- touch fun1
+command 2 :- vi fun1
+command 3 :- cat fun1
+output:-
+Hello all welcome to git hub reository Stardev
+let's start the learning.
+All the best for your next carrer path !
+command 4 :- ls -l
+output:-
+total 60
+-rw-------. 1 root root  6953 May  4  2021 anaconda-ks.cfg
+-rw-r--r--. 2 root root     0 Mar  9 14:59 fruit
+-rw-r--r--. 2 root root     0 Mar  9 14:59 fruitlink
+-rw-r--r--. 1 root root   114 Jul  5 07:33 fun1
+-rw-r--r--. 1 root root     0 Mar  7 15:02 fun10
+-rw-r--r--. 1 root root     0 Mar  7 15:02 fun2
+-rw-r--r--. 1 root root     0 Mar  7 15:02 fun3
+-rw-r--r--. 1 root root     0 Mar  7 15:02 fun4
+-rw-r--r--. 1 root root     0 Mar  7 15:02 fun5
+-rw-r--r--. 1 root root     0 Mar  7 15:02 fun6
+-rw-r--r--. 1 root root     0 Mar  7 15:02 fun7
+-rw-r--r--. 1 root root     0 Mar  7 15:02 fun8
+-rw-r--r--. 1 root root     0 Mar  7 15:02 fun9
+-rw-r--r--. 1 root root     0 Jul  5 07:21 gitprcom
+-rw-r--r--. 1 root root   217 Jul  5 07:45 gitprcomm
+-rw-r--r--. 1 root root    18 Mar  9 16:05 headphone
+-rw-r--r--. 1 root root    18 Mar  9 16:04 headset
+-rw-r--r--. 1 root root  1179 Mar  9 15:16 historybackup
+-rw-r--r--. 1 root root    91 Mar  9 15:57 laptop
+drwxr-xr-x. 6 root root    58 Mar  7 15:03 mobile
+-rw-r--r--. 1 root root   193 Mar  9 15:58 mylappy
+-rw-------. 1 root root  6699 May  4  2021 original-ks.cfg
+-rw-r--r--. 1 root root    27 May 12 14:15 sun1
+-rw-r--r--. 1 root root     0 Mar 11 13:37 tooth
+-rw-r--r--. 1 root root 10240 Mar 11 13:37 tooth.tar
+command 5 :- touch laptop {1..5}   ----> create 6 files with name laptop
+output :-
+-rw-r--r--. 1 root root 91 Mar  9 15:57 laptop
+-rw-r--r--. 1 root root  0 Jul  5 07:48 laptop1
+-rw-r--r--. 1 root root  0 Jul  5 07:48 laptop2
+-rw-r--r--. 1 root root  0 Jul  5 07:48 laptop3
+-rw-r--r--. 1 root root  0 Jul  5 07:48 laptop4
+-rw-r--r--. 1 root root  0 Jul  5 07:48 laptop5
+command 5 :- mkdir -p house/{whitehouse,penthouse,farmhouse}
+output :-
+total 0
+drwxr-xr-x. 2 root root  6 Jul  5 07:57 farmhouse
+-rw-r--r--. 1 root root  0 Jul  5 08:03 gitprcomm
+drwxr-xr-x. 5 root root 58 Jul  5 08:03 house
+drwxr-xr-x. 2 root root  6 Jul  5 07:57 penthouse
+drwxr-xr-x. 2 root root  6 Jul  5 07:57 whitehouse
+command 6 :- cd house 
+command 7 :- pwd 
+output :-
+/root/house

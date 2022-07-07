@@ -1,0 +1,132 @@
+command 8:- whoami
+output:-
+
+root
+command 9 :-df -Th       ----> it will show memory utilization of server
+output:-
+Filesystem     Type      Size  Used Avail Use% Mounted on
+devtmpfs       devtmpfs  377M     0  377M   0% /dev
+tmpfs          tmpfs     404M     0  404M   0% /dev/shm
+tmpfs          tmpfs     404M   11M  393M   3% /run
+tmpfs          tmpfs     404M     0  404M   0% /sys/fs/cgroup
+/dev/xvda2     xfs        10G  1.4G  8.7G  14% /
+tmpfs          tmpfs      81M     0   81M   0% /run/user/1000
+command 10 :- ll -a              ----------> it will show hidden directories
+Command 11 :- ll -a >> gitprcom   ------------> it will redirect and uppend file gitprcom with output of command 
+command 12 :- mkdir .book         ----------> create hidden directory
+output :-
+total 88
+dr-xr-x---.  6 root root  4096 Jul  5 08:44 .
+dr-xr-xr-x. 18 root root   278 Jul  5 08:10 ..
+-rw-------.  1 root root  6953 May  4  2021 anaconda-ks.cfg
+-rw-------.  1 root root  1939 May 12 14:16 .bash_history
+-rw-r--r--.  1 root root    18 Aug 12  2018 .bash_logout
+-rw-r--r--.  1 root root   176 Aug 12  2018 .bash_profile
+-rw-r--r--.  1 root root   176 Aug 12  2018 .bashrc
+drwxr-xr-x.  2 root root     6 Jul  5 08:39 .book
+-rw-r--r--.  1 root root   100 Aug 12  2018 .cshrc
+-rw-r--r--.  2 root root     0 Mar  9 14:59 fruit
+-rw-r--r--.  2 root root     0 Mar  9 14:59 fruitlink
+-rw-r--r--.  1 root root   664 Jul  5 08:44 gitprcom
+-rw-r--r--.  1 root root  2253 Jul  5 08:32 gitprcomm
+-rw-r--r--.  1 root root    18 Mar  9 16:05 headphone
+-rw-r--r--.  1 root root    18 Mar  9 16:04 headset
+-rw-r--r--.  1 root root  1179 Mar  9 15:16 historybackup
+drwxr-xr-x.  6 root root    88 Jul  5 08:03 house
+-rw-r--r--.  1 root root    91 Mar  9 15:57 laptop
+drwxr-xr-x.  6 root root    58 Mar  7 15:03 mobile
+-rw-r--r--.  1 root root   193 Mar  9 15:58 mylappy
+-rw-------.  1 root root  6699 May  4  2021 original-ks.cfg
+drwx------.  2 root root    29 Mar  7 14:51 .ssh
+-rw-r--r--.  1 root root    27 May 12 14:15 sun1
+-rw-r--r--.  1 root root   129 Aug 12  2018 .tcshrc
+-rw-r--r--.  1 root root     0 Mar 11 13:37 tooth
+-rw-r--r--.  1 root root 10240 Mar 11 13:37 tooth.tar
+command 13 :- uname -r 
+output:- 
+4.18.0-305.el8.x86_64                                                                                                                                                       command 14 :- ps -ef  output:-
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 07:08 ?        00:00:02 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+root           2       0  0 07:08 ?        00:00:00 [kthreadd]
+root           3       2  0 07:08 ?        00:00:00 [rcu_gp]
+root           4       2  0 07:08 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 07:08 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           8       2  0 07:08 ?        00:00:00 [kworker/u30:0-events_unbound]
+root           9       2  0 07:08 ?        00:00:00 [mm_percpu_wq]
+root          10       2  0 07:08 ?        00:00:00 [ksoftirqd/0]
+root          11       2  0 07:08 ?        00:00:00 [rcu_sched]
+root          12       2  0 07:08 ?        00:00:00 [migration/0]
+root          13       2  0 07:08 ?        00:00:00 [watchdog/0]
+root          14       2  0 07:08 ?        00:00:00 [cpuhp/0]
+root          16       2  0 07:08 ?        00:00:00 [kdevtmpfs]
+root          17       2  0 07:08 ?        00:00:00 [netns]
+root          18       2  0 07:08 ?        00:00:00 [kauditd]
+root          19       2  0 07:08 ?        00:00:00 [xenbus]
+root          20       2  0 07:08 ?        00:00:00 [xenwatch]
+root          21       2  0 07:08 ?        00:00:00 [khungtaskd]
+root          22       2  0 07:08 ?        00:00:00 [oom_reaper]
+root          23       2  0 07:08 ?        00:00:00 [writeback]
+root          24       2  0 07:08 ?        00:00:00 [kcompactd0]
+root          25       2  0 07:08 ?        00:00:00 [ksmd]
+root          26       2  0 07:08 ?        00:00:00 [khugepaged]
+root          27       2  0 07:08 ?        00:00:00 [crypto]
+root          28       2  0 07:08 ?        00:00:00 [kintegrityd]
+root          29       2  0 07:08 ?        00:00:00 [kblockd]
+root          30       2  0 07:08 ?        00:00:00 [blkcg_punt_bio]
+root          31       2  0 07:08 ?        00:00:00 [tpm_dev_wq]
+root          32       2  0 07:08 ?        00:00:00 [md]
+root          33       2  0 07:08 ?        00:00:00 [edac-poller]
+root          34       2  0 07:08 ?        00:00:00 [watchdogd]
+root          35       2  0 07:08 ?        00:00:00 [kworker/0:1H-xfs-log/xvda2]
+root          39       2  0 07:08 ?        00:00:00 [kworker/u30:1-events_unbound]
+root          59       2  0 07:08 ?        00:00:00 [kswapd0]
+root         152       2  0 07:08 ?        00:00:00 [kthrotld]
+root         153       2  0 07:08 ?        00:00:00 [acpi_thermal_pm]
+root         154       2  0 07:08 ?        00:00:00 [kmpath_rdacd]
+root         155       2  0 07:08 ?        00:00:00 [kaluad]
+root         156       2  0 07:08 ?        00:00:00 [ipv6_addrconf]
+root         157       2  0 07:08 ?        00:00:00 [kstrp]
+root         434       2  0 07:08 ?        00:00:00 [ata_sff]
+root         436       2  0 07:08 ?        00:00:00 [scsi_eh_0]
+root         438       2  0 07:08 ?        00:00:00 [scsi_tmf_0]
+root         441       2  0 07:08 ?        00:00:00 [scsi_eh_1]
+root         443       2  0 07:08 ?        00:00:00 [scsi_tmf_1]
+root         460       2  0 07:08 ?        00:00:00 [xfsalloc]
+root         461       2  0 07:08 ?        00:00:00 [xfs_mru_cache]
+root         462       2  0 07:08 ?        00:00:00 [xfs-buf/xvda2]
+root         463       2  0 07:08 ?        00:00:00 [xfs-conv/xvda2]
+root         464       2  0 07:08 ?        00:00:00 [xfs-cil/xvda2]
+root         465       2  0 07:08 ?        00:00:00 [xfs-reclaim/xvd]
+root         466       2  0 07:08 ?        00:00:00 [xfs-eofblocks/x]
+root         467       2  0 07:08 ?        00:00:00 [xfs-log/xvda2]
+root         468       2  0 07:08 ?        00:00:00 [xfsaild/xvda2]
+root         566       1  0 07:08 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root         595       1  0 07:08 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root         633       1  0 07:08 ?        00:00:00 /sbin/auditd
+polkitd      679       1  0 07:08 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+root         680       1  0 07:08 ?        00:00:00 /usr/sbin/sssd -i --logger=files
+dbus         682       1  0 07:08 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+chrony       687       1  0 07:08 ?        00:00:00 /usr/sbin/chronyd
+root         692     680  0 07:08 ?        00:00:00 /usr/libexec/sssd/sssd_be --domain implicit_files --uid 0 --gid 0 --logger=files
+root         704     680  0 07:08 ?        00:00:00 /usr/libexec/sssd/sssd_nss --uid 0 --gid 0 --logger=files
+root         711       1  0 07:08 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root         746       1  0 07:08 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         752       1  0 07:08 ?        00:00:00 /usr/libexec/platform-python -Es /usr/sbin/tuned -l -P
+root         755       1  0 07:08 ?        00:00:00 /usr/bin/rhsmcertd
+root         974       1  0 07:08 ?        00:00:00 /usr/sbin/sshd -D -oCiphers=aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes256-ctr,aes256-cbc,aes128-gcm@openssh.com,aes128-ctr,aes128-cbc -oMACs=hmac-sha2-256-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha1,umac-128@openssh.com,hmac-sha2-512 -oGSSAPIKexAlgorithms=gss-curve25519-sha256-,gss-nistp256-sha256-,gss-group14-sha256-,gss-group16-sha512-,gss-gex-sha1-,gss-group14-sha1- -oKexAlgorithms=curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1 -oHostKeyAlgorithms=ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,rsa-sha2-256,rsa-sha2-256-cert-v01@openssh.com,rsa-sha2-512,rsa-sha2-512-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oPubkeyAcceptedKeyTypes=ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,rsa-sha2-256,rsa-sha2-256-cert-v01@openssh.com,rsa-sha2-512,rsa-sha2-512-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oCASignatureAlgorithms=ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-ed25519,rsa-sha2-256,rsa-sha2-512,ssh-rsa
+root         977       1  0 07:08 ?        00:00:00 /usr/sbin/rsyslogd -n
+root         980       1  0 07:08 ttyS0    00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root         981       1  0 07:08 ?        00:00:00 /usr/sbin/crond -n
+root         982       1  0 07:08 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root        1326     974  0 07:14 ?        00:00:00 sshd: ec2-user [priv]
+ec2-user    1330       1  0 07:14 ?        00:00:00 /usr/lib/systemd/systemd --user
+ec2-user    1335    1330  0 07:14 ?        00:00:00 (sd-pam)
+ec2-user    1342    1326  0 07:14 ?        00:00:00 sshd: ec2-user@pts/0
+ec2-user    1343    1342  0 07:14 pts/0    00:00:00 -bash
+root        1366    1343  0 07:14 pts/0    00:00:00 sudo su -
+root        1368    1366  0 07:14 pts/0    00:00:00 su -
+root        1369    1368  0 07:14 pts/0    00:00:00 -bash
+root        1818       2  0 08:43 ?        00:00:00 [kworker/0:0-events]
+root        1833       2  0 08:49 ?        00:00:00 [kworker/0:2-events]
+root        1844       2  0 08:54 ?        00:00:00 [kworker/0:1-events_power_efficient]
+root        1845    1369  0 08:57 pts/0    00:00:00 ps -ef
