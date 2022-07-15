@@ -1,0 +1,25 @@
+command 1) docker images
+output:-
+REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
+nginx        2.0       d65f41477c45   40 minutes ago   169MB
+nginx        1.0       3900dc3b47dd   40 minutes ago   169MB
+run1         1.0       1ac4221e8578   7 hours ago      169MB
+mentry1      2.0       94c513429bad   5 weeks ago      77.8MB
+entrypoint   1.0       3e7241e356d8   5 weeks ago      77.8MB
+myimage1     1.0       90d2c08985be   5 weeks ago      77.8MB
+mcmd1        latest    fe3ed86994f1   5 weeks ago      77.8MB
+mentry1      1.0       8cedf6d4ed9a   5 weeks ago      77.8MB
+arg          3.0       2a2656593b61   5 weeks ago      77.8MB
+arg          1.0       d271f56442cc   5 weeks ago      72.8MB
+
+command 2) docker ps -a
+Output:-
+CONTAINER ID   IMAGE            COMMAND                  CREATED          STATUS                      PORTS                           NAMES
+1f7e8ed8ce45   nginx:2.0        "nginx -g 'daemon of…"   22 minutes ago   Up 22 minutes               443/tcp, 0.0.0.0:8080->80/tcp   nginxser2
+fb3e7bcb6044   nginx:1.0        "nginx -g 'daemaon o…"   26 minutes ago   Exited (1) 26 minutes ago                                   nginxser1
+6db33c4c99c2   arg:1.0          "/bin/echo 'hello al…"   8 hours ago      Exited (0) 8 hours ago                                      arg1
+412641af3864   mentry1:2.0      "/bin/echo 'Welcome …"   8 hours ago      Exited (0) 8 hours ago                                      mentry2
+30ae794e01d5   mentry1:1.0      "/bin/echo 'Welcome …"   9 hours ago      Exited (0) 9 hours ago                                      mentry1
+9e7b3c5556bf   mcmd1            "/bin/echo 'hello al…"   22 hours ago     Exited (0) 22 hours ago                                     mcmd1
+e3a33dde1955   entrypoint:1.0   "/bin/echo 'Hello wo…"   22 hours ago     Exited (0) 22 hours ago                                     ept
+2d44af63a2f5   myimage1:1.0     "/bin/bash"              23 hours ago     Exited (1) 23 hours ago                                     myimage1
